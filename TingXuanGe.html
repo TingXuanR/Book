@@ -1,0 +1,542 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>TXG</title>
+    <link rel="stylesheet" href="bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <script src="jquery-3.3.1.js"></script>
+    <script src="bootstrap.min.js"></script>
+    <script type="text/javascript">
+        function alt(){
+            alert("\"& 非 常 感 谢 您 的 推 荐 &\"");
+        }
+        $(document).ready(function () {
+            $("#submit").click(function () {
+                alt();
+            });
+        });
+    </script>
+</head>
+<body>
+<header class="head-pic">
+    <img src="img/清明上河图.jpg">
+</header>
+<nav class="navbar navbar-expand-lg navbar-light">
+    <a class="navbar-brand" href="#">
+        <img src="img/TingXG.png" width="80px" height="40px">
+    </a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav nav-pills mr-auto">
+            <li class="nav-item dropdown active">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
+                   aria-haspopup="true" aria-expanded="false">
+                    <span>文学</span>
+                </a>
+                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                    <a class="dropdown-item" href="小说.html">小说</a>
+                    <a class="dropdown-item" href="散文.html">散文</a>
+                    <a class="dropdown-item" href="历史.html">历史</a>
+                    <a class="dropdown-item" href="#">科技</a>
+                    <a class="dropdown-item" href="#">哲学</a>
+                </div>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="小说.html"><span>小说</span></a>
+            </li>
+
+            <li class="nav-item">
+                <a class="nav-link" href="散文.html"><span>散文</span></a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="历史.html"><span>历史</span></a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link disabled" style="transition: all 0.3s ease;" title="暂时不可用" href="#"><span>科技</span></a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link disabled" style="transition: all 0.3s ease;" title="暂时不可用" href="#"><span>哲学</span></a>
+            </li>
+        </ul>
+        <form class="form-inline my-2 my-lg-0">
+            <input class="form-control mr-sm-2" type="search" placeholder="搜书" aria-label="Search">
+            <a class="btn btn-outline-success" href="https://www.jiumodiary.com/">
+            搜书
+            </a>
+        </form>
+    </div>
+</nav>
+<div class="flowPicture">
+    <div class="container" style="width:70%">
+        <div class="top-text">
+            <h1>开卷有益</h1>
+        </div>
+        <div id="carouselExampleIndicators" class="carousel slide  carousel-fade"
+             data-ride="carousel">
+            <ol class="carousel-indicators">
+                <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+                <li data-target="#carouselExampleIndicators" data-slide-to="1" class=""></li>
+                <li data-target="#carouselExampleIndicators" data-slide-to="2" class=""></li>
+                <li data-target="#carouselExampleIndicators" data-slide-to="3" class=""></li>
+                <li data-target="#carouselExampleIndicators" data-slide-to="4" class=""></li>
+            </ol>
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img class="d-block" src="img/jid.jpg">
+                    <div class="carousel-caption">
+                        <h3>《基地》七部曲</h3>
+                        <p>被Marks用火箭送上太空的神作，
+                            被世界SF协会誉为人类历史上最好看的科幻小说
+                            （Best All - Time Novel Seriers）
+                        </p>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img class="d-block" src="img/CangL.png">
+                    <div class="carousel-caption">
+                        <h3>《苍凉深处等春来》</h3>
+                        <p>听林清玄讲述禅意人生。
+                            '向暖而生，活在盛放',<br>'时光知味，岁月沉香',<br>'雨花犹落无风絮自飞'
+                            <br>'致每一个在凡世里用心生活的人'
+                        </p>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img class="d-block" src="img/zhegelishi.jpg">
+                    <div class="carousel-caption">
+                        <h3>《这个历史挺靠谱》</h3>
+                        <p>中国通俗讲史界领军人物袁腾飞代表作《历史是个什么玩意》升级修订而成，
+                            带你在嬉笑怒骂中普及历史知识。
+                        </p>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img class="d-block" src="img/Shijian.jpg">
+                    <div class="carousel-caption">
+                        <h3>《时间简史》</h3>
+                        <p>霍金三部曲第一部。自1988年首版以来的岁月里，已成为全球科学著作的里程碑。
+                            被翻译成出版史上的奇观40多种文字，销售了近1000万册，成为国际出版史上的奇观
+                        </p>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img class="d-block" src="img/zhexue.png">
+                    <div class="carousel-caption">
+                        <h3>《中国哲学简史》</h3>
+                        <p>一代哲人冯友兰先生的经典代表作，在短短20万字里融入了对中国传统思想,文化
+                            ,智慧的理解，是史与思的智慧结晶。
+                        </p>
+                    </div>
+                </div>
+                <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Previous</span>
+                </a>
+                <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Next</span>
+                </a>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="main-content">
+    <div class="container">
+        <h2><i>阁主推荐</i></h2>
+        <ul class="nav nav-tabs" id="myTab">
+            <li class="nav-item">
+                <a class="nav-link active" data-toggle="tab" href="#xs">小说</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" data-toggle="tab" href="#sw">散文</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" data-toggle="tab" href="#bc">编程</a>
+            </li>
+        </ul>
+        <div class="tab-content" id="myTabContent">
+            <div class="tab-pane fade show active" id="xs">
+                <div class="intro">
+                    <div class="card">
+                        <div class="card-header">
+                            <img src="img/yonghengde.jpg" class="card-img-top">
+                        </div>
+                        <div class="card-body">
+                            <h6 class="card-title">永恒的终结</h6>
+                            <p class="card-subtitle mb-2 text-muted">
+                                （美）阿西莫夫
+                            </p>
+                        </div>
+                    </div>
+                    <div class="intro-text">
+                        <p style="margin-top: 135px;">1955年问世，让你体验时间旅行的终极奥秘和恢弘构想</p>
+                    </div>
+                </div>
+                <div class="intro">
+                    <div class="card">
+                        <div class="card-header">
+                            <img src="img/yinghediguo.jpg" class="card-img-top">
+                        </div>
+                        <div class="card-body">
+                            <h6 class="card-title">银河帝国</h6>
+                            <p class="card-subtitle text-muted">（美）阿西莫夫</p>
+                        </div>
+                    </div>
+                    <div class="intro-text">
+                        <p style="margin-top: 135px;">1951年问世，一部俯仰两万年的长篇史诗。
+                            包括《基地》，《银河帝国》，《机器人》三个系列，
+                            总册数达15册。被誉为<strong>“科幻圣经”</strong>
+                        </p>
+                    </div>
+                </div>
+                <div class="intro">
+                    <div class="card">
+                    <div class="card-header">
+                        <img src="img/shenmen.jpg" class="card-img-top">
+                    </div>
+                        <div class="card-body">
+                                <h6 class="card-title">神门自己</h6>
+                                <p class="card-subtitle text-muted">（美）阿西莫夫</p>
+                        </div>
+                    </div>
+                    <div class="intro-text">
+                        <p style="margin-top: 135px;">太阳即将毁灭，可是无人倾听。
+                            <br>真相，永远掌握在极少数人的手里。
+                            <br>面对愚昧，神们自己也缄口不言。</p>
+                    </div>
+                </div>
+                <div class="intro">
+                    <div class="card">
+                        <div class="card-header">
+                            <img src="img/liulang.jpg" class="card-img-top">
+                        </div>
+                        <div class="card-body">
+                            <h6 class="card-title">流浪地球</h6>
+                            <p class="card-subtitle text-muted">刘慈欣/何夕/王晋康</p>
+                        </div>
+                    </div>
+                    <div class="intro-text">
+                        <p style="margin-top: 135px;">
+                            流浪地球：太阳熄灭，人类搬家<br>
+                            六道众生：平行空间进行时<br>
+                            百年守望：克隆之殇
+                        </p>
+                    </div>
+                </div>
+                <div class="intro">
+                    <div class="card">
+                        <div class="card-header">
+                            <img src="img/shende.jpg" class="card-img-top">
+                        </div>
+                        <div class="card-body">
+                            <h6 class="card-title">神的九十九亿个名字</h6>
+                            <p class="card-subtitle text-muted">(英) 阿瑟·克拉克</p>
+                        </div>
+                    </div>
+                    <div class="intro-text">
+                        <p style="margin-top: 135px;">
+                            大刘的偶像，与阿西莫夫互损互夸一生的科幻大师所作。<br>
+                            上帝、耶和华、安拉……这些都是人造的符号，神真正的名字是不可呼唤的……
+                        </p>
+                    </div>
+                </div>
+                <div class="intro">
+                    <div class="card">
+                        <div class="card-header">
+                            <img src="img/tongniande.jpg" class="card-img-top">
+                        </div>
+                        <div class="card-body">
+                            <h6 class="card-title">童年的终结</h6>
+                            <p class="card-subtitle text-muted">(英) 阿瑟·克拉</p>
+                        </div>
+                    </div>
+                    <div class="intro-text">
+                        <p style="margin-top: 135px;">
+                            当外星生物降临地球，人类在其帮助下经历过没有战争，饥饿，灾害的黄金时代
+                            后，只有一个地球人活下来，看到了人类的童年的终结。
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="tab-pane fade show" id="sw">
+                <div class="intro">
+                    <div class="card">
+                        <div class="card-header">
+                            <img src="img/rensheng__01.jpg" class="card-img-top">
+                        </div>
+                        <div class="card-body">
+                           <h6 class="card-title">苍凉深处等春来</h6>
+                            <p class="card-subtitle text-muted">林清玄</p>
+                        </div>
+                    </div>
+                    <div class="intro-text">
+                        <p style="margin-top: 15px;">" 清欢 " 实为生命的减法，在我们舍弃了世俗的追逐和欲望的捆绑，回到最单纯的欢喜，是生命里最有滋味的情境。
+                            <br>在燥热的暑天喝一杯茶。
+
+                            <br>在雪夜的风中看一盏烛火。
+
+                            <br>在黄昏的晚霞里观夕阳沉落。
+
+                            <br>在蝉声高唱的树林里穿行。
+
+                            <br>在落下的一根白发里，浮出一生最爱的面容。</p>
+                    </div>
+                </div>
+                <div class="intro">
+                    <div class="card">
+                        <div class="card-header">
+                            <img src="img/zhongguo.jpg" class="card-img-top">
+                        </div>
+                        <div class="card-body">
+                            <h6 class="card-title">中国文脉</h6>
+                            <p class="card-subtitle text-muted">余秋雨</p>
+                        </div>
+                    </div>
+                    <div class="intro-text">
+                        <p style="margin-top: 135px;">余秋雨说：“这是除《文化苦旅》之外，我最重要的作品。” </p>
+                    </div>
+                </div>
+                <div class="intro">
+                    <div class="card">
+                        <div class="card-header">
+                            <img src="img/dangcang.jpg" class="card-img-top">
+                        </div>
+                        <div class="card-body">
+                            <h6 class="card-title">当仓央嘉措遇上纳兰容若</h6>
+                            <p class="card-subtitle text-muted">随园散人</p>
+                        </div>
+                    </div>
+                    <div class="intro-text">
+                        <p style="margin-top: 65px;">一生一代一双人；<br><br>
+                            我转山转水转佛塔<br>不为修来生<br>只为在途中<br>与你相遇
+                        </p>
+                    </div>
+                </div>
+                <div class="intro" style="margin: 10px 165px">
+                    <div class="card">
+                        <div class="card-header">
+                            <img src="img/fengwu.jpg" class="card-img-top">
+                        </div>
+                        <div class="card-body">
+                            <h6 class="card-title">风物长宜放眼量</h6>
+                            <p class="card-subtitle text-muted">季羡林</p>
+                        </div>
+                    </div>
+                    <div class="intro-text">
+                        <p style="margin-top: 135px;">
+                            陈寅恪弟子，“国宝”，国学大师季羡林带你
+                            感受到中华传统文化的精髓和东方文化的深厚底蕴
+                        </p>
+                    </div>
+                </div>
+                <div class="intro" style="margin: 10px 0">
+                    <div class="card">
+                        <div class="card-header">
+                            <img src="img/yashe.jpg" class="card-img-top">
+                        </div>
+                        <div class="card-body">
+                            <h6 class="card-title">雅舍谈吃</h6>
+                            <p class="card-subtitle text-muted">梁实秋</p>
+                        </div>
+                    </div>
+                    <div class="intro-text">
+                        <p style="margin-top: 135px;">
+                            “馋，则着重在食物的质，最需要满足的是品味。
+                            馋，基于生理要求，也可以发展成为近于艺术的趣味。
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="tab-pane fade show" id="bc">
+                <div class="intro">
+                    <div class="card">
+                        <div class="card-header">
+                            <img src="img/heoke.jpg" class="card-img-top">
+                        </div>
+                        <div class="card-body">
+                            <h6 class="card-title">黑客与画家</h6>
+                            <p class="card-subtitle text-muted">（美）保罗·格雷厄姆</p>
+                        </div>
+                    </div>
+                    <div class="intro-text">
+                        <p style="margin-top: 135px;">读后感：你对技术一无所知。</p>
+                    </div>
+                </div>
+                <div class="intro">
+                    <div class="card">
+                        <div class="card-header">
+                            <img src="img/c.jpg" class="card-img-top">
+                        </div>
+                        <div class="card-body">
+                            <h6 class="card-title">c语言必须知道的300个问题</h6>
+                            <p class="card-subtitle text-muted">明日科技</p>
+                        </div>
+                    </div>
+                    <div class="intro-text">
+                        <p style="margin-top: 135px;">C语言入门书籍</p>
+                    </div>
+                </div>
+                <div class="intro">
+                    <div class="card">
+                        <div class="card-header">
+                            <img src="img/c++.jpg" class="card-img-top">
+                        </div>
+                        <div class="card-body">
+                            <h6 class="card-title">轻松学习c++</h6>
+                            <p class="card-subtitle text-muted">杨波</p>
+                        </div>
+                    </div>
+                    <div class="intro-text">
+                        <p style="margin-top: 135px;">C++语言入门书籍</p>
+                    </div>
+                </div>
+                <div class="intro" style="margin: 10px 165px">
+                    <div class="card">
+                        <div class="card-header">
+                            <img src="img/python.jpg" class="card-img-top">
+                        </div>
+                        <div class="card-body">
+                            <h6 class="card-title">Python编程快速上手</h6>
+                            <p class="card-subtitle text-muted">(美)Al Sweigart</p>
+                        </div>
+                    </div>
+                    <div class="intro-text">
+                        <p style="margin-top: 135px;">Python语言快速入门，让繁琐的工作自动化</p>
+                    </div>
+                </div>
+                <div class="intro" style="margin: 10px 0">
+                    <div class="card">
+                        <div class="card-header">
+                            <img src="img/ht.jpg" class="card-img-top">
+                        </div>
+                        <div class="card-body">
+                            <h6 class="card-title">Html5/css/js设计案例课堂</h6>
+                            <p class="card-subtitle text-muted">刘玉红</p>
+                        </div>
+                    </div>
+                    <div class="intro-text">
+                        <p style="margin-top: 135px;">以应用为实例带你快速上手网页设计</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="intro-form">
+    <div class="container">
+        <form>
+            <table class="table" align="center">
+                <tr>
+                    <th colspan="2">
+                        <h3>好书推荐</h3>
+                        <hr style="margin: 3px auto;height: 2px;border-width: 0;background-color: white; width: 105px">
+                    </th>
+                </tr>
+                <tr>
+                    <td>
+                        <input type="text" placeholder="书名：" required>
+                    </td>
+                    <td>
+                        <input type="text" placeholder="作者："  required>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <input type="tel" placeholder="图书类别：" >
+                    </td>
+                    <td>
+                        <input type="text" placeholder="出版社：" >
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <input type="text" placeholder="ISBN: " >
+                    </td>
+                    <td>
+                        <input type="text" placeholder="推荐人名(nick)字(name)：" >
+                    </td>
+                </tr>
+                <tr>
+                    <td colspan="2">
+                        <textarea  cols="106px" rows="6px"  required>推荐理由:&nbsp;</textarea>
+                    </td>
+                </tr>
+                <tr>
+                    <td colspan="2">
+                        <input id="submit" type="submit" value="提  交" style="width: 785px">
+                    </td>
+                </tr>
+            </table>
+        </form>
+    </div>
+</div>
+<div class="footer">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-4">
+                <div class="widget">
+                    <h4 class="title">友情链接</h4>
+                    <div class="friend-links">
+                        <a href="http://e.dangdang.com/" title="当当阅读" target="_blank">当当阅读</a>
+                        <a href="http://book.qq.com/" title="QQ阅读" target="_blank">QQ阅读</a>
+                        <a href="https://e.jd.com/" title="京东图书网" target="_blank">京东图书网</a>
+                        <a href="http://book.dangdang.com/" title="当当图书网" target="_blank">当当图书网</a>
+                        <a href="http://www.bootcss.com" title="Bootstrap中文网" target="_blank">Bootstrap中文网</a>
+                        <a href="http://www.ghostchina.com/" title="Ghost开源平台" target="_blank">Ghost开源平台</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="widget">
+                    <h4 class="title">标签云</h4>
+                    <div class="tag-cloud">
+                        <a href="#">散文</a>
+                        <a href="#">随笔</a>
+                        <a href="#">小说</a>
+                        <a href="#">文学</a>
+                        <a href="#">历史</a>
+                        <a href="#">文化</a>
+                        <a href="#">社科</a>
+                        <a href="#">政治</a>
+                        <a href="#">经管</a>
+                        <a href="#">人文</a>
+                        <a href="#">科技</a>
+                        <a href="#">哲学</a>
+                        <a href="#">私人</a>
+                        <a href="#">书阁</a>
+                        <a href="#">.....</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="widget">
+                    <div class="contact">
+                        <h4 class="title">
+                            联系方式
+                        </h4>
+                        <ul>
+                            <li><img src="img/icon/weibo.png">
+                                <b>:</b><span>@Rao MX</span>
+                            </li>
+                            <li><img src="img/icon/twitter.png">
+                                <b>:</b><span>@Ting Xuan</span>
+                            </li>
+                            <li><img src="img/icon/fbook.jpg" width="29px" height="25px">
+                                <b>:</b><span>@Ting Xuan</span>
+                            </li>
+                            <li>
+                                <b>个人图书网站：</b><a href="#">yiwuyu.me</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+</body>
+</html>
